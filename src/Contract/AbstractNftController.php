@@ -18,7 +18,6 @@ use App\TotalSupplyProvider\CachedTotalSupplyProvider;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Generator\UrlGeneratorInterface;
 use Symfony\Contracts\Cache\CacheInterface;
-use Psr\Log\LoggerInterface;
 
 /**
  * @author Marco Lipparini <developer@liarco.net>
@@ -36,8 +35,6 @@ abstract class AbstractNftController extends AbstractController
     protected function isValidTokenId(int $tokenId): bool
     {
         $isRevealed = $this->getParameter('app.collection_is_revealed');
-        $logger->info('I just got the logger');
-        $logger->info($isRevealed);
         return $isRevealed && $tokenId >= 0 && $tokenId < $this->cachedTotalSupplyProvider->getTotalSupply();
     }
 
