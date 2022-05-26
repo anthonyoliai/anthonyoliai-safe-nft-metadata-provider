@@ -1,3 +1,4 @@
+NOTE: TAKEN FROM HASHLIPS.
 # Safe NFT Metadata Provider
 
 A simple yet powerful HTTP metadata and assets provider for NFT collections using [Symfony](https://www.symfony.com).
@@ -33,4 +34,4 @@ By using the following referral link you will be given a 100$ credit on DigitalO
 
 You can also do a one-click deployment on DigitalOcean:
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/anthonyoliai/safe-nft-metadata-provider/tree/main)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/anthonyoliai/safe-nft-metadata-provider/tree/master)
