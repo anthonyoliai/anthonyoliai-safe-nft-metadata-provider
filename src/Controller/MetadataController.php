@@ -46,6 +46,9 @@ final class MetadataController extends AbstractNftController
 
     public function __invoke(int $tokenId): Response
     {
+        if (! $tokenId<555) {
+            throw new LogicException('TokenID is supposed to be lower than 555.');
+        }
         if (! $this->isValidTokenId($tokenId)) {
             $metadata = $this->cache->get(self::CACHE_HIDDEN_METADATA, function (ItemInterface $item): array {
                 $item->expiresAfter($this->getDefaultCacheExpiration());
