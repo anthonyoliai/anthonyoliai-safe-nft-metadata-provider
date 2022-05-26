@@ -34,4 +34,5 @@ By using the following referral link you will be given a 100$ credit on DigitalO
 
 You can also do a one-click deployment on DigitalOcean:
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/anthonyoliai/safe-nft-metadata-provider/tree/master)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/anthonyoliai/
+anthonyoliai-safe-nft-metadata-provider/tree/master)
